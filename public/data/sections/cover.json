@@ -117,7 +117,7 @@
       },
       "locales": {
         "en": {
-          "title": "Interactive **Demos**"
+          "title": "Interactive Demos-**Explore Demos section to try it out!**"
         }
       },
       "items": [
@@ -130,11 +130,12 @@
           "locales": {
             "en": {
               "title": "Subdomain Enumeration",
-              "info": "Uncover hidden domains & potential entry points."
-            },
-            "links": [
-              { "href": "https://subdomain-demo.com" }
-            ]
+              "info": "Discover subdomains interactively!"
+            }
+          },
+          "action": {
+            "type": "scroll",
+            "target": "#interactive-demos"
           }
         },
         {
@@ -161,17 +162,31 @@
           },
           "locales": {
             "en": {
-              "title": "Vulnerability Scanner",
-              "info": "Test for OWASP Top 10 vulnerabilities."
+              "title": "CVE Scanner",
+              "info": "Discover your website's technologies vulnerabilities"
             },
             "links": [
               { "href": "https://vulnerability-scanner-demo.com" }
             ]
           }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-robot",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Murphy: AI Security-CHATBOT",
+              "info": "Chat with Murphy to discuss and solve security challenges."
+            }
+          },
+          "component": "MurphyChatbot"
         }
       ]
     },
-
+    
     {
       "id": "technical_skills",
       "component": "ArticleGrid",

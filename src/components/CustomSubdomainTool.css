@@ -1,0 +1,30 @@
+.custom-subdomain-tool button {
+    background-color: #28a745; /* Green background */
+    color: white;              /* White text for contrast */
+    border: 1px solid #1f7a33; /* Slightly darker green border */
+    border-radius: 4px;        /* Rounded corners */
+    padding: 10px 20px;        /* Comfortable padding */
+    font-size: 16px;           /* Readable font size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.custom-subdomain-tool button:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34;     /* Slightly darker border */
+    transform: scale(1.05);    /* Slight zoom effect */
+}
+
+.custom-subdomain-tool button:active {
+    background-color: #1c7430; /* Even darker green when clicked */
+    transform: scale(0.95);    /* Slight shrink on click */
+}
+
+.custom-subdomain-tool button:disabled {
+    background-color: #6c757d; /* Grey background for disabled state */
+    color: #e9ecef;            /* Light grey text */
+    border-color: #6c757d;     /* Match disabled state border */
+    cursor: not-allowed;       /* Show not-allowed cursor */
+    opacity: 0.65;             /* Reduce opacity for a disabled look */
+}

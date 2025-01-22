@@ -1,29 +1,34 @@
 import React, { useState } from "react";
-import "./CustomSubdomainTool.css"; // Optional for styling, adjust as needed.
+import "./CustomSubdomainTool.css";
 
 const CustomSubdomainTool = () => {
   const [domain, setDomain] = useState("");
   const [results, setResults] = useState(null);
-  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [liveCheck, setLiveCheck] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const fetchSubdomains = async () => {
+    if (!domain.trim()) {
+      setError("Please enter a valid domain.");
+      return;
+    }
+
     setLoading(true);
     setError(null);
     setResults(null);
 
-    const apiUrl = `https://subdomain-enum-tool-production-4fb5.up.railway.app/subdomains?domain=${domain}${
-      liveCheck ? "&live=true" : ""
-    }`;
-
     try {
-      const response = await fetch(apiUrl);
+      const response = await fetch(
+        `https://subdomain-enum-tool-production-4fb5.up.railway.app/subdomains?domain=${domain}`
+      );
       if (!response.ok) throw new Error("Failed to fetch subdomains");
+
       const data = await response.json();
-      setResults(data);
+      console.log("API Response:", data); // Debugging
+
+      setResults(data); // Store the entire response
     } catch (err) {
+      console.error("Error fetching subdomains:", err.message);
       setError(err.message);
     } finally {
       setLoading(false);
@@ -32,41 +37,32 @@ const CustomSubdomainTool = () => {
 
   return (
     <div className="custom-subdomain-tool">
-      <h2>Subdomain Enumeration Tool</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <input
-            type="text"
-            placeholder="Enter a domain (e.g., example.com)"
-            value={domain}
-            onChange={(e) => setDomain(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={liveCheck}
-              onChange={() => setLiveCheck(!liveCheck)}
-            />
-            Include Live Check
-          </label>
-        </div>
-        <button type="submit" disabled={loading}>
-          {loading ? "Fetching..." : "Fetch Subdomains"}
-        </button>
-      </form>
+      <h3>Subdomain Enumeration</h3>
+      <input
+        type="text"
+        placeholder="example.com"
+        value={domain}
+        onChange={(e) => setDomain(e.target.value)}
+      />
+      <button onClick={fetchSubdomains} disabled={loading}>
+        {loading ? "Fetching..." : "Fetch Subdomains"}
+      </button>
+
       {error && <p style={{ color: "red" }}>{error}</p>}
+
       {results && (
         <div>
-          <h3>Results for: {results.domain}</h3>
-          <p>{results.message}</p>
-          <ul>
-            {results.subdomains.map((sub, index) => (
-              <li key={index}>{sub}</li>
-            ))}
-          </ul>
+          <h4>Results for {results.domain}</h4>
+          {results.message && <p>{results.message}</p>}
+          {results.subdomains && results.subdomains.length > 0 ? (
+            <ul>
+              {results.subdomains.map((sub, index) => (
+                <li key={index}>{sub}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>No subdomains found.</p>
+          )}
         </div>
       )}
     </div>

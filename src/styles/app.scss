@@ -19,3 +19,52 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "typography";
 @import "page";
 @import "forms";
+#interactive-demos {
+    background-color: inherit; // Matches the page background
+    color: inherit;            // Matches the page text color
+    padding: 40px;             // Adds spacing inside the section
+    text-align: center;        // Centers content
+}
+
+#interactive-demos h2 {
+    font-size: 2rem;           // Adjust title size
+    font-weight: bold;         // Makes the title bold
+    margin-bottom: 20px;       // Spacing below the title
+}
+
+#interactive-demos input {
+    width: 80%;                // Adjusts input width
+    max-width: 500px;          // Limits the max width of input
+    margin-bottom: 15px;       // Spacing below input field
+    padding: 10px;             // Adds inner spacing
+    border: 1px solid #ddd;    // Subtle border for input
+    border-radius: 4px;        // Slightly rounder edges
+    font-size: 1rem;           // Font size
+}
+
+#interactive-demos button {
+    padding: 10px 20px;        // Adjusts button size
+    background-color: #007bff; // Default primary color
+    color: white;              // Button text color
+    border: none;              // Removes border
+    border-radius: 4px;        // Adds rounded corners
+    font-size: 1rem;           // Adjust font size
+    cursor: pointer;           // Changes cursor on hover
+}
+
+#interactive-demos button:hover {
+    background-color: #0056b3; // Darker shade on hover
+}
+
+#interactive-demos ul {
+    list-style: none;          // Removes default list styling
+    padding: 0;                // Resets padding
+    margin: 20px auto;         // Centers the list
+    max-width: 600px;          // Limits max width
+}
+
+#interactive-demos li {
+    text-align: left;          // Aligns text to the left
+    font-size: 1rem;           // Adjusts text size
+    margin-bottom: 10px;       // Adds space between items
+}

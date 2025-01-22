@@ -7,6 +7,9 @@ import Scrollable from "/src/components/capabilities/Scrollable.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import {useUtils} from "/src/helpers/utils.js"
 
+import CustomSubdomainTool from "/src/components/CustomSubdomainTool.jsx";
+
+
 import ArticleCards from "/src/components/articles/ArticleCards.jsx"
 import ArticleContactForm from "/src/components/articles/ArticleContactForm.jsx"
 import ArticleGrid from "/src/components/articles/ArticleGrid.jsx"
@@ -41,8 +44,9 @@ const ARTICLES = {
     ArticleServices,
     ArticleTestimonials,
     ArticleThread,
-    ArticleTimeline
-}
+    ArticleTimeline,
+    CustomSubdomainTool
+};
 
 const utils = useUtils()
 const scheduler = useScheduler()
