@@ -71,9 +71,9 @@
           }
         },
         {
-          "value": "@minaaziz",
+          "value": "@minaaziz9",
           "links": [
-            { "href": "https://github.com/minaaziz" }
+            { "href": "https://github.com/minaaziz9" }
           ],
           "icon": {
             "img": null,
@@ -102,7 +102,7 @@
           },
           "locales": {
             "en": {
-              "text": "<p>Welcome to my cybersecurity portfolio! I'm a Security Analyst seeking internship roles in penetration testing, incident response, and cloud security. I often use Metasploit, Wireshark, and custom scripts (Python/Bash/PowerShell) to solve security challenges. Below, you'll find interactive demos showcasing my approach to securing networks—from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security eJPT</li><li>CompTIA Security+</li><li>Hack The Box CBBH</li><li>EC-Council OWASP TOP 10 Certified</li></ul>"
+              "text": "<p>Welcome to my Cyber Security portfolio! I'm a Security Analyst seeking internship roles in penetration testing, incident response, and cloud security. Feel free to check my Github,TryHackMe & HackTheBox . Below, you'll find interactive demos showcasing a little of my skills —from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security eJPT</li><li>CompTIA Security+</li><li>Hack The Box CBBH</li><li>EC-Council OWASP TOP 10 Certified</li></ul>"
             }
           }
         }
@@ -147,7 +147,7 @@
           "locales": {
             "en": {
               "title": "Dark Web Monitoring",
-              "info": "Identify compromised assets via dark web analysis."
+              "info": "Coming Soon"
             },
             "links": [
               { "href": "https://darkweb-monitoring-demo.com" }
@@ -163,7 +163,7 @@
           "locales": {
             "en": {
               "title": "CVE Scanner",
-              "info": "Discover your website's technologies vulnerabilities"
+              "info": "Coming Soon"
             },
             "links": [
               { "href": "https://vulnerability-scanner-demo.com" }
@@ -179,7 +179,7 @@
           "locales": {
             "en": {
               "title": "Murphy: AI Security-CHATBOT",
-              "info": "Chat with Murphy to discuss and solve security challenges."
+              "info": "Coming Soon"
             }
           },
           "component": "MurphyChatbot"

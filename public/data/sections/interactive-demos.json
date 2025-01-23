@@ -26,7 +26,7 @@
           "config": {},
           "locales": {
               "en": {
-                  "title": "Dark Web Monitoring",
+                  "title": "Dark Web Monitoring~Soon",
                   "info": "Monitor compromised assets with real-time dark web analysis."
               }
           },
@@ -38,7 +38,7 @@
           "config": {},
           "locales": {
               "en": {
-                  "title": "CVE Scanner",
+                  "title": "CVE Scanner~Soon",
                   "info": "Enter your website to test its technologies"
               }
           },
@@ -50,7 +50,7 @@
           "config": {},
           "locales": {
               "en": {
-                  "title": "Murphy: AI Security Chatbot",
+                  "title": "Murphy: AI Security Chatbot~Soon",
                   "info": "Chat with Murphy for insights into cybersecurity challenges and solutions."
               }
           },

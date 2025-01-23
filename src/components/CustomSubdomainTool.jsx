@@ -19,7 +19,7 @@ const CustomSubdomainTool = () => {
 
     try {
       const response = await fetch(
-        `https://subdomain-enum-tool-production-4fb5.up.railway.app/subdomains?domain=${domain}`
+        `http://subenum1.eba-x23sejwm.us-east-1.elasticbeanstalk.com/subdomains?domain=${domain}`
       );
       if (!response.ok) throw new Error("Failed to fetch subdomains");
 
