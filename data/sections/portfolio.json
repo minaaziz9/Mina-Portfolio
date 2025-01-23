@@ -1,0 +1,191 @@
+{
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Most Recent Projects**"
+    },
+    "es": {
+      "title": "Portafolio",
+      "title_long_prefix": "Explora",
+      "title_long": "Mi **Portafolio**"
+    },
+    "fr": {
+      "title": "Portfolio",
+      "title_long_prefix": "Découvrez",
+      "title_long": "Mon **Portfolio**"
+    },
+    "ko": {
+      "title": "포트폴리오",
+      "title_long_prefix": "이것은 내",
+      "title_long": "**포트폴리오**입니다"
+    }
+  },
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+      "categories": [
+        {
+          "id": "apps",
+          "locales": {
+            "en": { "singular": "App", "plural": "Apps" },
+            "es": { "singular": "App", "plural": "Apps" },
+            "fr": { "singular": "App", "plural": "Apps" },
+            "ko": { "singular": "앱", "plural": "앱들" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Web" },
+            "es": { "singular": "Sitio web", "plural": "Web" },
+            "fr": { "singular": "Site web", "plural": "Web" },
+            "ko": { "singular": "웹사이트", "plural": "웹" }
+          }
+        },
+        {
+          "id": "utilities",
+          "locales": {
+            "en": { "singular": "Utility", "plural": "Utilities" },
+            "es": { "singular": "Utilidad", "plural": "Utilidades" },
+            "fr": { "singular": "Utilitaire", "plural": "Utilitaires" },
+            "ko": { "singular": "유틸리티", "plural": "유틸리티들" }
+          }
+        }
+      ],
+      "items": [
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-network-wired",
+            "faColors": { "bg": "#6c757d", "fill": "#fff" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/minaaziz9/MSFCONSOLE-Horus"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Virtualized Security Lab",
+              "text": "Configured a lab with VirtualBox, pfSense, and Active Directory to simulate penetration testing and network segmentation. Tools: Metasploit, Nmap, Nessus.",
+              "tags": ["VirtualBox", "pfSense", "Metasploit", "Nmap", "Nessus"]
+            },
+            "es": {},
+            "fr": {},
+            "ko": {}
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-code",
+            "faColors": { "bg": "#0d6efd", "fill": "#fff" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/minaaziz9/Anubis-webscanner"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Python-Based Web Vulnerability Scanner",
+              "text": "Built a Python scanner for OWASP Top 10 vulnerabilities, automating workflows using BeautifulSoup and argparse.",
+              "tags": ["Python", "OWASP", "Automation"]
+            },
+            "es": {},
+            "fr": {},
+            "ko": {}
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-terminal",
+            "faColors": { "bg": "#20c997", "fill": "#fff" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/minaaziz9/osiris_recon_harden.sh"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Enhanced System Recon & Hardening Script",
+              "text": "Developed a Bash script integrating Nmap and Metasploit for system reconnaissance and vulnerability assessment.",
+              "tags": ["Bash", "Nmap", "Metasploit"]
+            },
+            "es": {},
+            "fr": {},
+            "ko": {}
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-flag-checkered",
+            "faColors": { "bg": "#dc3545", "fill": "#fff" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-ghost",
+              "href": "https://tryhackme.com/r/p/minaaziz"
+            },
+            {
+              "faIcon": "fa-solid fa-medal",
+              "href": "https://academy.hackthebox.com/achievement/badge/e1a80778-afa2-11ef-864f-bea50ffe6cb4"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Hack The Box & TryHackMe",
+              "text": "Participated in CTF challenges covering SQL Injection, XSS, Command Injection, and threat hunting via MITRE ATT&CK. Used Burp Suite, SQLMap, and manual testing methods to identify vulnerabilities.",
+              "tags": ["CTF", "HTB", "TryHackMe", "Burp Suite", "SQLMap"]
+            },
+            "es": {},
+            "fr": {},
+            "ko": {}
+          }
+        }
+      ]
+    }
+  ]
+}

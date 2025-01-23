@@ -1,0 +1,202 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+        "ko": {
+            "title": "경력 성과",
+            "title_menu": "경력 성과",
+            "title_long_prefix": "다음은",
+            "title_long": "**경력 성과**입니다"
+        }
+    },
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-shield-halved",
+                        "faColors": {"bg": "#007bff", "fill": "#fff"}
+                    },
+                    "dates": {
+                        "start": "05/01/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "eLearnSecurity",
+                            "text": "eJPTv2 Certification (Junior Penetration Tester)"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lock",
+                        "faColors": {"bg": "#f04f24", "fill": "#fff"}
+                    },
+                    "dates": {
+                        "start": "08/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "CompTIA",
+                            "text": "Security+ Certified"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-bug",
+                        "faColors": {"bg": "#ff0000", "fill": "#fff"}
+                    },
+                    "dates": {
+                        "start": "06/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Hack The Box",
+                            "text": "Certified Bug Bounty Hunter"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-code",
+                        "faColors": {"bg": "#ff6600", "fill": "#fff"}
+                    },
+                    "dates": {
+                        "start": "07/01/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "EC-Council",
+                            "text": "OWASP Top 10 Certified"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-flag",
+                        "faColors": {"bg": "#ffcc00", "fill": "#000"}
+                    },
+                    "dates": {
+                        "start": "12/25/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "TryHackMe",
+                            "text": "Advent of Cyber 3 Participant"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" }
+            },
+            "items": [
+                {
+                    "dates": {
+                        "start": "08/01/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Outstanding Security Contribution",
+                            "info": "Saint Mary Coptic Orthodox Church",
+                            "text": "Awarded for reducing the attack surface by 30% and increasing phishing email detection rates by 40%."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "09/15/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Top Bug Bounty Hunter Recognition",
+                            "info": "HackerOne and Bugcrowd",
+                            "text": "Recognized for identifying critical vulnerabilities and delivering actionable remediation plans within 48 hours."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "12/25/2023",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Advent of Cyber 3 Completion",
+                            "info": "TryHackMe",
+                            "text": "Completed all challenges during the Advent of Cyber 3 event, showcasing hands-on cybersecurity skills."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "06/01/2024",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Hack The Box Certified",
+                            "info": "Hack The Box",
+                            "text": "Earned the Certified Bug Bounty Hunter recognition for exceptional performance."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

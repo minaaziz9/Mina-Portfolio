@@ -1,0 +1,19 @@
+{
+    "locales": {
+        "en": {
+            "title": "Subdomain Enumeration Tool",
+            "description": "Discover hidden subdomains for any domain."
+        }
+    },
+    "articles": [
+        {
+            "component": "CustomSubdomainTool",
+            "locales": {
+                "en": {
+                    "title": "Interactive Subdomain Tool",
+                    "info": "Enter a domain below to uncover subdomains."
+                }
+            }
+        }
+    ]
+}

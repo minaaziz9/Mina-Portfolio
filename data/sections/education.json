@@ -1,0 +1,72 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/uofa.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2022",
+                        "end": "04/01/2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor's** in Cyber Engineering",
+                            "info": "University of Arizona",
+                            "text": "Pursuing a Bachelor’s degree focused on cybersecurity operations, penetration testing, incident response, and cryptography. Coursework emphasizes hands-on experience with threat analysis, system hardening, and secure networking.",
+                            "tags": ["Cybersecurity", "Penetration Testing", "Incident Response", "Cryptography"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/ed.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2020",
+                        "end": "06/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Associate Degree** in Information Security",
+                            "info": "Edmonds College",
+                            "text": "Focused on ethical hacking, Python scripting for security, and Linux administration. Developed a strong foundation in network security, system vulnerability assessment, and threat detection.",
+                            "tags": ["Ethical Hacking", "Python Scripting", "Linux Administration", "Network Security"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

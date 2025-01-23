@@ -1,0 +1,72 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionnel**"
+        },
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**직업적** 경험"
+        }
+    },
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/cr.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "05/01/2023",
+                        "end": "08/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Security Analyst**",
+                            "info": "Saint Mary Coptic Orthodox Church",
+                            "text": "Conducted penetration testing, uncovering critical vulnerabilities, and reducing the attack surface by 30%. Implemented advanced Splunk dashboards, cutting incident response time by 25%. Spearheaded compliance efforts to achieve NIST standards and delivered security awareness training that increased phishing detection rates by 40%.",
+                            "tags": ["Penetration Testing", "Splunk", "NIST Compliance"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/h1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "05/01/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bug Bounty Hunter**",
+                            "info": "HackerOne and Bugcrowd",
+                            "text": "Identified high-risk vulnerabilities (XSS, CSRF) in web applications, reducing exploitability. Delivered detailed remediation plans within 48 hours, leveraging tools like Burp Suite and OWASP ZAP. Authored comprehensive reports that enhanced team collaboration.",
+                            "tags": ["XSS", "CSRF", "Burp Suite", "OWASP ZAP"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
