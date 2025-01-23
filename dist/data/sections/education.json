@@ -30,7 +30,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/university-of-arizona.png",
+                        "img": "images/pictures/uofa.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -40,7 +40,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Bachelor's** in Cyber Operations",
+                            "title": "**Bachelor's** in Cyber Engineering",
                             "info": "University of Arizona",
                             "text": "Pursuing a Bachelor’s degree focused on cybersecurity operations, penetration testing, incident response, and cryptography. Coursework emphasizes hands-on experience with threat analysis, system hardening, and secure networking.",
                             "tags": ["Cybersecurity", "Penetration Testing", "Incident Response", "Cryptography"]
@@ -49,7 +49,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/edmonds-college.png",
+                        "img": "images/pictures/ed.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },

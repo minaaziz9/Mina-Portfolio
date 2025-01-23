@@ -16,7 +16,7 @@
     "profilePictureUrl": "images/pictures/minapic.jpeg",
 
     "locales": {
-      "en": { "role": "Cybersecurity Analyst" },
+      "en": { "role": "Security Analyst" },
       "es": { "role": "Analista de Ciberseguridad" },
       "fr": { "role": "Analyste Cybersécurité" },
       "ko": { "role": "사이버 보안 분석가" }
@@ -27,9 +27,9 @@
     "visible": true,
     "available": true,
     "locales": {
-      "en": { "message": "Available for freelance!" },
-      "es": { "message": "¡Disponible para freelance!" },
-      "fr": { "message": "Disponible pour freelance !" },
+      "en": { "message": "Available for Internships!" },
+      "es": { "message": "¡Disponible para Internships!" },
+      "fr": { "message": "Disponible pour Internships !" },
       "ko": { "message": "프리랜스 가능합니다!" }
     }
   },
