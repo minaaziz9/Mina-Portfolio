@@ -102,7 +102,11 @@
           },
           "locales": {
             "en": {
-              "text": "<p>Welcome to my Cyber Security portfolio! I'm a Security Analyst seeking internship roles in penetration testing, incident response, and cloud security. Feel free to check my Github,TryHackMe & HackTheBox . Below, you'll find interactive demos showcasing a little of my skills —from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security eJPT</li><li>EC-Council OWASP TOP 10 Certified</li></ul>"
+<<<<<<< HEAD
+              "text": "<p>Welcome to my Cyber Security portfolio! I'm a Security Analyst seeking internship roles in penetration testing, incident response, and cloud security. Feel free to check my Github , TryHackMe & HackTheBox . Below, you'll find interactive demos showcasing a little of my skills —from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security eJPTV2</li><li>EC-Council OWASP TOP 10 Certified</li></ul>"
+=======
+              "text": "<p>Welcome to my Cyber Security portfolio! I'm a Security Analyst seeking internship roles in penetration testing, incident response, and cloud security. Feel free to check my Github,TryHackMe & HackTheBox . Below, you'll find interactive demos showcasing a little of my skills —from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security : eJPTV2</li><li>EC-Council OWASP TOP 10 Certified</li></ul>"
+>>>>>>> 1159871d5fed9cac2815eb1638e86c704532f006
             }
           }
         }
