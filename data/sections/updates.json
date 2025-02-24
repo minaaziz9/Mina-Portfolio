@@ -5,24 +5,6 @@
       "title_menu": "Updates",
       "title_long_prefix": "Take a look at my",
       "title_long": "Recent **Updates**"
-    },
-    "es": {
-      "title": "Vida Reciente",
-      "title_menu": "Actualizaciones",
-      "title_long_prefix": "Consulta mis",
-      "title_long": "Actualizaciones **Recientes**"
-    },
-    "fr": {
-      "title": "Vie Récente",
-      "title_menu": "Mises à Jour",
-      "title_long_prefix": "Découvrez mes",
-      "title_long": "Dernières **Mises à Jour**"
-    },
-    "ko": {
-      "title": "최근의 생활",
-      "title_menu": "업데이트",
-      "title_long_prefix": "내 최근",
-      "title_long": "**업데이트**를 확인해 보세요"
     }
   },
   "articles": [
@@ -33,69 +15,20 @@
       "locales": {},
       "items": [
         {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-network-wired",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "42",
-              "info": "TryHackMe rooms solved"
-            }
-          }
+          "icon": { "img": null, "fa": "fa-solid fa-network-wired", "faColors": null },
+          "locales": { "en": { "title": "42", "info": "TryHackMe rooms solved" } }
         },
         {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-globe",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "05",
-              "info": "States visited"
-            }
-          }
+          "icon": { "img": null, "fa": "fa-solid fa-globe", "faColors": null },
+          "locales": { "en": { "title": "05", "info": "States visited" } }
         },
         {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-diagram-project",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "08",
-              "info": "Open-source projects"
-            }
-          }
+          "icon": { "img": null, "fa": "fa-solid fa-diagram-project", "faColors": null },
+          "locales": { "en": { "title": "08", "info": "Open-source projects" } }
         },
         {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-coffee",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "21,937",
-              "info": "Energy drinks consumed"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-robot",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "Developed love for LLM attacks",
-              "info": "Built an LLM Security Sandbox"
-            }
-          }
+          "icon": { "img": null, "fa": "fa-solid fa-coffee", "faColors": null },
+          "locales": { "en": { "title": "21,937", "info": "Energy drinks consumed" } }
         }
       ]
     },
@@ -103,31 +36,31 @@
       "id": "updates",
       "component": "ArticleThread",
       "config": {},
-      "locales": {
-        "en": {
-          "title": "Life **Updates**"
-        }
-      },
+      "locales": { "en": { "title": "Life **Updates**" } },
       "items": [
         {
           "dates": { "start": "12/01/2024", "end": null },
-          "locales": { "en": { "title": "INE eJPT Certified" } }
+          "locales": { "en": { "title": "INE eJPT Certified", "text": "Earned the eJPT certification, demonstrating foundational skills in ethical hacking and vulnerability assessment." } }
         },
         {
           "dates": { "start": "01/01/2025", "end": null },
-          "locales": { "en": { "title": "Built GitHub Projects" } }
+          "locales": { "en": { "title": "Built GitHub Projects", "text": "Developed multiple cybersecurity tools and projects, including Anubis and LLM Security Sandbox." } }
         },
         {
           "dates": { "start": "01/15/2025", "end": null },
-          "locales": { "en": { "title": "Traveled to California" } }
+          "locales": { "en": { "title": "Traveled to California", "text": "Explored California, engaging with local cybersecurity communities and attending industry events." } }
         },
         {
           "dates": { "start": "02/01/2025", "end": null },
-          "locales": { "en": { "title": "INE eWPT Certified" } }
+          "locales": { "en": { "title": "INE eWPT Certified", "text": "Successfully passed the eWPT certification, validating advanced skills in web penetration testing." } }
         },
         {
           "dates": { "start": "02/15/2025", "end": null },
-          "locales": { "en": { "title": "Refreshed My Portfolio" } }
+          "locales": { "en": { "title": "Refreshed My Portfolio", "text": "Updated my personal portfolio to highlight my latest achievements, projects, and certifications." } }
+        },
+        {
+          "dates": { "start": "02/20/2025", "end": null },
+          "locales": { "en": { "title": "Developed Love for LLM Attacks", "text": "Built an LLM Security Sandbox to test AI model vulnerabilities and prompt injection exploits." } }
         }
       ]
     }
