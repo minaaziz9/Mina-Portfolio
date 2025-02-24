@@ -102,7 +102,99 @@
           },
           "locales": {
             "en": {
-              "text": "<p>Welcome to my Cyber Security portfolio! I'm a Security Analyst seeking internship roles in penetration testing, incident response, and cloud security. Feel free to check my Github, TryHackMe & HackTheBox. Below, you'll find interactive demos showcasing a little of my skills — from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security: Junior Penetration Tester eJPT</li><li>INE Security: Web Application Penetration Tester eWPT</li></ul>"
+              "text": "<p>Welcome to my Cyber Security Portfolio! I'm a Cyber Engineering student seeking internship roles in AppSec, Incident Response, and Cloud Security. Feel free to check my Github, TryHackMe & HackTheBox. Below, you'll find interactive demos showcasing a little of my skills — from subdomain enumeration to dark web monitoring.</p><p><b>Certifications:</b></p><ul><li>INE Security: Junior Penetration Tester eJPT</li><li>INE Security: Web Application Penetration Tester eWPT</li></ul>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "technical_skills",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": {
+          "title": "Technical **Skills**"
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-shield-virus",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Penetration Testing",
+              "info": "Vulnerability identification & mitigation."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Scripting",
+              "info": "Python, Bash, PowerShell automation."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-cloud",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Cloud Security",
+              "info": "Hands-on with AWS & Azure."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-network-wired",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Network Analysis",
+              "info": "Threat detection with Wireshark, Splunk."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Incident Response",
+              "info": "Containment & forensics post-breach."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-search",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Web & API Security",
+              "info": "Pentesting Applications Security"
             }
           }
         }
