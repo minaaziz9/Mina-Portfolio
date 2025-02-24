@@ -1,0 +1,60 @@
+{
+  "locales": {
+      "en": {
+          "title": "Interactive Demos",
+          "title_menu": "Demos",
+          "title_long_prefix": "Explore my",
+          "title_long": "**Interactive Demos**"
+      }
+  },
+  "articles": [
+      {
+          "id": "subdomain_tool",
+          "component": "CustomSubdomainTool",
+          "config": {},
+          "locales": {
+              "en": {
+                  "title": "Subdomain Enumeration",
+                  "info": "Discover subdomains interactively by entering a domain name."
+              }
+          },
+          "items": []
+      },
+      {
+          "id": "dark_web_monitoring",
+          "component": "ArticleInfoBlock",
+          "config": {},
+          "locales": {
+              "en": {
+                  "title": "Dark Web Monitoring~Soon",
+                  "info": "Monitor compromised assets with real-time dark web analysis."
+              }
+          },
+          "items": []
+      },
+      {
+          "id": "CVE Scanner",
+          "component": "ArticleInfoBlock",
+          "config": {},
+          "locales": {
+              "en": {
+                  "title": "CVE Scanner~Soon",
+                  "info": "Enter your website to test its technologies"
+              }
+          },
+          "items": []
+      },
+      {
+          "id": "murphy_ai_chatbot",
+          "component": "ArticleInfoBlock",
+          "config": {},
+          "locales": {
+              "en": {
+                  "title": "Murphy: AI Security Chatbot~Soon",
+                  "info": "Chat with Murphy for insights into cybersecurity challenges and solutions."
+              }
+          },
+          "items": []
+      }
+  ]
+}
