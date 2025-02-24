@@ -16,7 +16,7 @@
     "profilePictureUrl": "images/pictures/minapic.jpeg",
 
     "locales": {
-      "en": { "role": "Security Analyst" },
+      "en": { "role": "Application Security Analyst" },
       "es": { "role": "Analista de Ciberseguridad" },
       "fr": { "role": "Analyste Cybersécurité" },
       "ko": { "role": "사이버 보안 분석가" }
