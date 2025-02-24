@@ -14,21 +14,25 @@
       "locales": {},
       "categories": [
         {
-          "id": "apps",
-          "locales": { "en": { "singular": "App", "plural": "Apps" } }
+          "id": "all",
+          "locales": { "en": { "singular": "All", "plural": "All" } }
         },
         {
-          "id": "websites",
-          "locales": { "en": { "singular": "Website", "plural": "Web" } }
+          "id": "web_security",
+          "locales": { "en": { "singular": "Web Security", "plural": "Web Security" } }
         },
         {
-          "id": "utilities",
-          "locales": { "en": { "singular": "Utility", "plural": "Utilities" } }
+          "id": "ai_security",
+          "locales": { "en": { "singular": "AI Security", "plural": "AI Security" } }
+        },
+        {
+          "id": "network_security",
+          "locales": { "en": { "singular": "Network Security", "plural": "Network Security" } }
         }
       ],
       "items": [
         {
-          "categoryId": "utilities",
+          "categoryId": "ai_security",
           "icon": { "img": "", "fa": "fa-solid fa-robot", "faColors": { "bg": "#6c757d", "fill": "#fff" } },
           "links": [
             { "faIcon": "fa-brands fa-github", "href": "https://github.com/minaaziz9/LLM-Security-Sandbox" }
@@ -37,7 +41,7 @@
           "locales": { "en": { "title": "LLM Security Sandbox", "text": "Automating prompt injection attacks, jailbreak testing, and response analysis for LLMs.", "tags": ["AI Security", "LLM", "Automation"] } }
         },
         {
-          "categoryId": "utilities",
+          "categoryId": "web_security",
           "icon": { "img": "", "fa": "fa-solid fa-code", "faColors": { "bg": "#0d6efd", "fill": "#fff" } },
           "links": [
             { "faIcon": "fa-brands fa-github", "href": "https://github.com/minaaziz9/Anubis-webscanner" }
@@ -46,7 +50,7 @@
           "locales": { "en": { "title": "Anubis Web Scanner", "text": "A Python-based tool to detect common web vulnerabilities like SQL Injection, XSS, and command injection.", "tags": ["Python", "Web Security", "Vulnerability Scanning"] } }
         },
         {
-          "categoryId": "utilities",
+          "categoryId": "network_security",
           "icon": { "img": "", "fa": "fa-solid fa-terminal", "faColors": { "bg": "#20c997", "fill": "#fff" } },
           "links": [
             { "faIcon": "fa-brands fa-github", "href": "https://github.com/minaaziz9/osiris_recon_harden.sh" }
@@ -55,7 +59,7 @@
           "locales": { "en": { "title": "Osiris Recon & Hardening Script", "text": "A Bash script for automating system reconnaissance and hardening by identifying vulnerabilities and applying security best practices.", "tags": ["Bash", "Security Hardening", "Automation"] } }
         },
         {
-          "categoryId": "utilities",
+          "categoryId": "web_security",
           "icon": { "img": "", "fa": "fa-solid fa-globe", "faColors": { "bg": "#ffc107", "fill": "#fff" } },
           "links": [
             { "faIcon": "fa-brands fa-github", "href": "https://github.com/minaaziz9/subdomain-enum-tool" }
@@ -64,7 +68,7 @@
           "locales": { "en": { "title": "Subdomain Enumeration Tool", "text": "Python Flask-based API for subdomain enumeration.", "tags": ["Python", "Flask", "Reconnaissance"] } }
         },
         {
-          "categoryId": "utilities",
+          "categoryId": "network_security",
           "icon": { "img": "", "fa": "fa-solid fa-map", "faColors": { "bg": "#dc3545", "fill": "#fff" } },
           "links": [
             { "faIcon": "fa-brands fa-github", "href": "https://github.com/minaaziz9/MSFCONSOLE-Horus" }
