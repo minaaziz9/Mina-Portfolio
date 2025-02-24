@@ -19,7 +19,7 @@
       "title_long": "Dernières **Mises à Jour**"
     },
     "ko": {
-      "title": "최근의 삶",
+      "title": "최근의 생활",
       "title_menu": "업데이트",
       "title_long_prefix": "내 최근",
       "title_long": "**업데이트**를 확인해 보세요"
@@ -40,20 +40,8 @@
           },
           "locales": {
             "en": {
-              "title": "03",
-              "info": "Pentesting labs built"
-            },
-            "es": {
-              "title": "03",
-              "info": "Laboratorios de pentesting creados"
-            },
-            "fr": {
-              "title": "03",
-              "info": "Labs de pentesting créés"
-            },
-            "ko": {
-              "title": "03",
-              "info": "모의 해킹 실습 환경 구축"
+              "title": "42",
+              "info": "TryHackMe rooms solved"
             }
           }
         },
@@ -67,18 +55,6 @@
             "en": {
               "title": "05",
               "info": "States visited"
-            },
-            "es": {
-              "title": "05",
-              "info": "Estados visitados"
-            },
-            "fr": {
-              "title": "05",
-              "info": "États visités"
-            },
-            "ko": {
-              "title": "05",
-              "info": "방문한 주"
             }
           }
         },
@@ -90,20 +66,8 @@
           },
           "locales": {
             "en": {
-              "title": "04",
+              "title": "08",
               "info": "Open-source projects"
-            },
-            "es": {
-              "title": "04",
-              "info": "Proyectos de código abierto"
-            },
-            "fr": {
-              "title": "04",
-              "info": "Projets open-source"
-            },
-            "ko": {
-              "title": "04",
-              "info": "오픈 소스 프로젝트"
             }
           }
         },
@@ -115,20 +79,21 @@
           },
           "locales": {
             "en": {
-              "title": "20,000",
-              "info": "Energy drinks"
-            },
-            "es": {
-              "title": "20,000",
-              "info": "Bebidas energéticas"
-            },
-            "fr": {
-              "title": "20,000",
-              "info": "Boissons énergisantes"
-            },
-            "ko": {
-              "title": "20,000",
-              "info": "에너지 음료"
+              "title": "21,937",
+              "info": "Energy drinks consumed"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-robot",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "Developed love for LLM attacks",
+              "info": "Built an LLM Security Sandbox"
             }
           }
         }
@@ -140,96 +105,29 @@
       "config": {},
       "locales": {
         "en": {
-          "title": "Quick **Facts**"
-        },
-        "es": {
-          "title": "Feed de **Noticias**"
-        },
-        "fr": {
-          "title": "Fil d'**Actualités**"
-        },
-        "ko": {
-          "title": "**뉴스** 피드"
+          "title": "Life **Updates**"
         }
       },
       "items": [
         {
-          "dates": {
-            "start": "05/01/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Security Analyst Role at Saint Mary Coptic Orthodox Church",
-              "text": "Began my position as a Security Analyst, focusing on penetration testing, Splunk dashboards, and network hardening. Contributed to a 30% reduction in the organization’s attack surface."
-            }
-          }
+          "dates": { "start": "12/01/2024", "end": null },
+          "locales": { "en": { "title": "INE eJPT Certified" } }
         },
         {
-          "dates": {
-            "start": "05/15/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Active Bug Bounty Hunting",
-              "text": "Joined HackerOne & Bugcrowd to uncover high-risk vulnerabilities (XSS, CSRF), deliver swift remediation plans, and enhance overall security posture for clients."
-            }
-          }
+          "dates": { "start": "01/01/2025", "end": null },
+          "locales": { "en": { "title": "Built GitHub Projects" } }
         },
         {
-          "dates": {
-            "start": "12/01/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "INE eJPT Certified",
-              "text": "Earned the eJPT (eLearnSecurity Junior Penetration Tester) certification, demonstrating foundational skills in ethical hacking and vulnerability assessment."
-            }
-          }
+          "dates": { "start": "01/15/2025", "end": null },
+          "locales": { "en": { "title": "Traveled to California" } }
         },
         {
-          "dates": {
-            "start": "06/01/2024",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Hack The Box CBBH Certified",
-              "text": "Obtained the Hack The Box Certified Bug Bounty Hunter (CBBH) credential, recognizing advanced skills in identifying and reporting critical vulnerabilities."
-            }
-          }
+          "dates": { "start": "02/01/2025", "end": null },
+          "locales": { "en": { "title": "INE eWPT Certified" } }
         },
         {
-          "dates": {
-            "start": "08/01/2024",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "CompTIA Security+",
-              "text": "Successfully passed the CompTIA Security+ exam, validating my knowledge in network security, threat analysis, and compliance best practices."
-            }
-          }
-        },
-        {
-          "dates": {
-            "start": "10/01/2024",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Refreshed My **Portfolio**",
-              "text": "Updated my personal portfolio to highlight the newest achievements, tools, and certifications detailed in my CV, reflecting my continued dedication to cybersecurity excellence."
-            }
-          }
+          "dates": { "start": "02/15/2025", "end": null },
+          "locales": { "en": { "title": "Refreshed My Portfolio" } }
         }
       ]
     }
