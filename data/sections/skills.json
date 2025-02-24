@@ -95,7 +95,7 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-radar",
+            "fa": "fa-solid fa-globe",
             "faColors": {
               "bg": "#dc3545",
               "fill": "#fff"
