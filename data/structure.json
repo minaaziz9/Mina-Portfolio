@@ -43,13 +43,6 @@
         },
 
         {
-            "id": "interactive-demos",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/interactive-demos.json",
-            "faIcon": "fa-solid fa-flask"
-        },
-
-        {
             "id": "updates",
             "categoryId": "more",
             "jsonPath": "/data/sections/updates.json",
