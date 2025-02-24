@@ -79,7 +79,7 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-server",
+            "fa": "fa-solid fa-globe",
             "faColors": {
               "bg": "#6c757d",
               "fill": "#fff"
