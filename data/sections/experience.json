@@ -60,7 +60,7 @@
                     "locales": {
                         "en": {
                             "title": "**Bug Bounty Hunter**",
-                            "info": "HackerOne and Bugcrowd",
+                            "info": "HackerOne and YesWeHack",
                             "text": "Identified high-risk vulnerabilities (XSS, CSRF) in web applications, reducing exploitability. Delivered detailed remediation plans within 48 hours, leveraging tools like Burp Suite and OWASP ZAP. Authored comprehensive reports that enhanced team collaboration.",
                             "tags": ["XSS", "CSRF", "Burp Suite", "OWASP ZAP"]
                         }
