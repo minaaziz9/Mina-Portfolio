@@ -30,7 +30,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/logos/ys.jpeg",
+                        "img": "images/pictures/ys.jpeg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -49,7 +49,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/logos/h1.png",
+                        "img": "images/pictures/h1.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -68,7 +68,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/logos/place1.png",
+                        "img": "images/pictures/place1.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
