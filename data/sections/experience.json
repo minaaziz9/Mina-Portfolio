@@ -30,7 +30,45 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/cr.png",
+                        "img": "images/logos/ys.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/01/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Security Researcher**",
+                            "info": "YesWeHack · Freelance",
+                            "text": "YesWeHack is a global bug bounty platform that enables security researchers to test and report vulnerabilities in applications, networks, and cloud environments. Conduct penetration testing on web applications, APIs, and mobile applications, identifying authentication bypasses, SSRF, and logic-based vulnerabilities. Research cloud security misconfigurations, adversarial AI threats, and exploit model evasion techniques. Deliver high-quality vulnerability reports with proof-of-concept exploits and risk assessments.",
+                            "tags": ["Recon", "Web Application Security", "Cloud Security", "Bug Bounty"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/logos/h1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "05/01/2023",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Web Security Researcher**",
+                            "info": "HackerOne · Freelance",
+                            "text": "HackerOne is a bug bounty platform that connects security researchers with organizations to identify and remediate security vulnerabilities before they can be exploited. Conduct security assessments on web applications and APIs, discovering and exploiting vulnerabilities like SQL injection, XSS, and misconfigured authentication flows. Use Burp Suite, OWASP ZAP, and custom Python scripts for automation and reconnaissance. Provide detailed security reports and proof-of-concept exploits to assist teams in mitigating risks.",
+                            "tags": ["CSRF", "OWASP ZAP", "API Security", "Web Security"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/logos/cr.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -44,25 +82,6 @@
                             "info": "Saint Mary Coptic Orthodox Church",
                             "text": "Conducted penetration testing, uncovering critical vulnerabilities, and reducing the attack surface by 30%. Implemented advanced Splunk dashboards, cutting incident response time by 25%. Spearheaded compliance efforts to achieve NIST standards and delivered security awareness training that increased phishing detection rates by 40%.",
                             "tags": ["Penetration Testing", "Splunk", "NIST Compliance"]
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/h1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "05/01/2023",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Bug Bounty Hunter**",
-                            "info": "HackerOne and YesWeHack",
-                            "text": "Identified high-risk vulnerabilities (XSS, CSRF) in web applications, reducing exploitability. Delivered detailed remediation plans within 48 hours, leveraging tools like Burp Suite and OWASP ZAP. Authored comprehensive reports that enhanced team collaboration.",
-                            "tags": ["XSS", "CSRF", "Burp Suite", "OWASP ZAP"]
                         }
                     }
                 }
