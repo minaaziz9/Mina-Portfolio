@@ -3,26 +3,8 @@
     "en": {
       "title": "Welcome!",
       "title_menu": "About me",
-      "title_long_prefix": "Explore my work",
-      "title_long": "**Mina Aziz – Security Analyst**"
-    },
-    "es": {
-      "title": "¡Saludos!",
-      "title_menu": "Sobre mí",
-      "title_long_prefix": "Explora mi trabajo",
-      "title_long": "**Mina Aziz – Analista de Ciberseguridad**"
-    },
-    "fr": {
-      "title": "Bienvenue !",
-      "title_menu": "À propos",
-      "title_long_prefix": "Découvrez mon travail",
-      "title_long": "**Mina Aziz – Analyste en Cybersécurité**"
-    },
-    "ko": {
-      "title": "환영합니다!",
-      "title_menu": "소개",
-      "title_long_prefix": "제 작업을 살펴보세요",
-      "title_long": "**Mina Aziz – 사이버 보안 분석가**"
+      "title_long_prefix": "Discover my journey",
+      "title_long": "**Mina Aziz – Application Security Analyst**"
     }
   },
 
@@ -41,22 +23,11 @@
         "ignorePaddingTop": true,
         "format": "inline"
       },
-      "locales": {
-        "en": {},
-        "es": {},
-        "fr": {},
-        "ko": {}
-      },
       "items": [
         {
           "value": "Seattle, WA",
-          "links": [
-            { "href": null }
-          ],
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-city",
-            "faColors": { "bg": null, "fill": null }
+            "fa": "fa-solid fa-city"
           }
         },
         {
@@ -65,9 +36,7 @@
             { "href": "mailto:minaaziz@arizona.edu" }
           ],
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-envelope",
-            "faColors": { "bg": null, "fill": null }
+            "fa": "fa-solid fa-envelope"
           }
         },
         {
@@ -76,9 +45,7 @@
             { "href": "https://github.com/minaaziz9" }
           ],
           "icon": {
-            "img": null,
-            "fa": "fa-brands fa-github",
-            "faColors": { "bg": null, "fill": null }
+            "fa": "fa-brands fa-github"
           }
         }
       ]
@@ -90,113 +57,135 @@
       "config": {},
       "locales": {
         "en": {
-          "title": "**A little bit** about me..."
+          "title": "**Who am I?**"
         }
       },
       "items": [
         {
           "icon": {
-            "img": "images/svg/logo.svg",
-            "fa": null,
-            "faColors": { "bg": null, "fill": null }
+            "img": "images/svg/logo.svg"
           },
           "locales": {
             "en": {
-              "text": "<p>Welcome to my Cyber Security Portfolio! I'm a Cyber Engineering student seeking internship roles in AppSec, Incident Response, and Cloud Security. Feel free to check my Github, TryHackMe & HackTheBox. </p><p><b>Certifications:</b></p><ul><li>INE Security: Junior Penetration Tester eJPT</li><li>INE Security: Web Application Penetration Tester eWPT</li></ul>"
+              "text": "<p>I'm a <b>Cyber Engineering student</b> and <b>Web Security Researcher @ YesWeHack</b>, specializing in <b>Application Security, AI Security, and Offensive Security Automation</b>. My expertise lies in identifying and exploiting vulnerabilities in <b>web applications, cloud environments, and AI models</b>.</p><p>I actively participate in bug bounty programs, research AI security risks, and develop security tools to improve testing efficiency. My approach combines offensive security techniques with a deep understanding of how applications and networks operate.</p>"
             }
           }
         }
       ]
     },
+
     {
-      "id": "technical_skills",
+      "id": "latest_certifications",
       "component": "ArticleGrid",
       "config": {
         "format": "grid"
       },
       "locales": {
         "en": {
-          "title": "Technical **Skills**"
+          "title": "Latest **Certifications**"
         }
       },
       "items": [
         {
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-shield-virus",
-            "faColors": null
+            "fa": "fa-solid fa-certificate"
           },
           "locales": {
             "en": {
-              "title": "Penetration Testing",
-              "info": "Vulnerability identification & mitigation."
+              "title": "eWPT - Web Application Penetration Tester",
+              "info": "Mastery in web exploitation, authentication bypasses, and web security assessments."
             }
           }
         },
         {
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-code",
-            "faColors": null
+            "fa": "fa-solid fa-certificate"
           },
           "locales": {
             "en": {
-              "title": "Scripting",
-              "info": "Python, Bash, PowerShell automation."
+              "title": "eJPT - Junior Penetration Tester",
+              "info": "Practical knowledge in penetration testing, network security, and exploitation."
             }
           }
+        }
+      ]
+    },
+
+    {
+      "id": "latest_projects",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": {
+          "title": "Latest **Projects**"
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "fa": "fa-solid fa-code"
+          },
+          "locales": {
+            "en": {
+              "title": "How I Shoot Web",
+              "info": "In-depth personal methodology for hacking web applications, network infrastructure, cloud assets, and leaks."
+            }
+          },
+          "links": [
+            {
+              "href": "https://github.com/minaaziz9/How-I-shoot-Web"
+            }
+          ]
         },
         {
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-cloud",
-            "faColors": null
+            "fa": "fa-solid fa-code"
           },
           "locales": {
             "en": {
-              "title": "Cloud Security",
-              "info": "Hands-on with AWS & Azure."
+              "title": "LLM Security Sandbox",
+              "info": "Automating prompt injection attacks, jailbreak testing, and AI security analysis."
             }
-          }
+          },
+          "links": [
+            {
+              "href": "https://github.com/minaaziz9/LLM-Security-Sandbox"
+            }
+          ]
         },
         {
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-network-wired",
-            "faColors": null
+            "fa": "fa-solid fa-code"
           },
           "locales": {
             "en": {
-              "title": "Network Analysis",
-              "info": "Threat detection with Wireshark, Splunk."
+              "title": "Anubis Web Scanner",
+              "info": "Python tool for detecting SQL Injection, XSS, and command injection vulnerabilities."
             }
-          }
+          },
+          "links": [
+            {
+              "href": "https://github.com/minaaziz9/Anubis-webscanner"
+            }
+          ]
         },
         {
           "icon": {
-            "img": null,
-            "fa": "fa-solid fa-database",
-            "faColors": null
+            "fa": "fa-solid fa-code"
           },
           "locales": {
             "en": {
-              "title": "Incident Response",
-              "info": "Containment & forensics post-breach."
+              "title": "MSFCONSOLE-Horus",
+              "info": "Automated Metasploit recon & enumeration for offensive security assessments."
             }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-search",
-            "faColors": null
           },
-          "locales": {
-            "en": {
-              "title": "Web & API Security",
-              "info": "Pentesting Applications Security"
+          "links": [
+            {
+              "href": "https://github.com/minaaziz9/MSFCONSOLE-Horus"
             }
-          }
+          ]
         }
       ]
     }
