@@ -30,7 +30,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/logos/ys.jpeg",
+                        "img": "images/images/ys.jpeg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -49,7 +49,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/logos/h1.png",
+                        "img": "images/images/h1.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -68,7 +68,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/logos/cr.png",
+                        "img": "images/pictures/place1.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -79,7 +79,7 @@
                     "locales": {
                         "en": {
                             "title": "**Security Analyst**",
-                            "info": "Saint Mary Coptic Orthodox Church",
+                            "info": "LLNL",
                             "text": "Conducted penetration testing, uncovering critical vulnerabilities, and reducing the attack surface by 30%. Implemented advanced Splunk dashboards, cutting incident response time by 25%. Spearheaded compliance efforts to achieve NIST standards and delivered security awareness training that increased phishing detection rates by 40%.",
                             "tags": ["Penetration Testing", "Splunk", "NIST Compliance"]
                         }
