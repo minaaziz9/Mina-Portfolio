@@ -32,6 +32,15 @@
       ],
       "items": [
         {
+          "categoryId": "web_security",
+          "icon": { "img": "", "fa": "fa-solid fa-book", "faColors": { "bg": "#ff5733", "fill": "#fff" } },
+          "links": [
+            { "faIcon": "fa-brands fa-github", "href": "https://github.com/minaaziz9/How-I-shoot-Web" }
+          ],
+          "media": { "youtubeVideo": null, "screenshots": { "aspectRatio": null, "images": [] } },
+          "locales": { "en": { "title": "How I Shoot Web", "text": "A detailed personal methodology for hacking web applications, network infrastructure, cloud assets, and finding leaked data.", "tags": ["Web Security", "Cloud", "Reconnaissance"] } }
+        },
+        {
           "categoryId": "ai_security",
           "icon": { "img": "", "fa": "fa-solid fa-robot", "faColors": { "bg": "#6c757d", "fill": "#fff" } },
           "links": [
