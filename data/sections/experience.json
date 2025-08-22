@@ -78,10 +78,10 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Security Analyst**",
-                            "info": "LLNL",
-                            "text": "Conducted penetration testing, uncovering critical vulnerabilities, and reducing the attack surface by 30%. Implemented advanced Splunk dashboards, cutting incident response time by 25%. Spearheaded compliance efforts to achieve NIST standards and delivered security awareness training that increased phishing detection rates by 40%.",
-                            "tags": ["Penetration Testing", "Splunk", "NIST Compliance"]
+                            "title": "**IT Systems Analyst**",
+                            "info": "Emanuel, Inc",
+                            "text": "Supported IT operations for a chain of gas stations, ensuring stable POS systems and office networks. ",
+                            "tags": ["Information Technology", "Splunk", "NIST Compliance"]
                         }
                     }
                 }
