@@ -107,6 +107,28 @@
               "info": "Practical knowledge in penetration testing, network security, and exploitation."
             }
           }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-certificate"
+          },
+          "locales": {
+            "en": {
+              "title": "Security+ - CompTIA Security+",
+              "info": "Strong foundation in cybersecurity concepts, risk management, and incident response."
+            }
+          }
+        },
+        {
+          "icon": {
+            "fa": "fa-solid fa-certificate"
+          },
+          "locales": {
+            "en": {
+              "title": "eCIR - Certified Incident Responder (Coming Soon)",
+              "info": "Focused expertise in incident detection, response, and remediation."
+            }
+          }
         }
       ]
     },
