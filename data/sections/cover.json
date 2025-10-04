@@ -26,27 +26,17 @@
       "items": [
         {
           "value": "Seattle, WA",
-          "icon": {
-            "fa": "fa-solid fa-city"
-          }
+          "icon": { "fa": "fa-solid fa-city" }
         },
         {
           "value": "minaaziz@arizona.edu",
-          "links": [
-            { "href": "mailto:minaaziz@arizona.edu" }
-          ],
-          "icon": {
-            "fa": "fa-solid fa-envelope"
-          }
+          "links": [{ "href": "mailto:minaaziz@arizona.edu" }],
+          "icon": { "fa": "fa-solid fa-envelope" }
         },
         {
           "value": "@minaaziz9",
-          "links": [
-            { "href": "https://github.com/minaaziz9" }
-          ],
-          "icon": {
-            "fa": "fa-brands fa-github"
-          }
+          "links": [{ "href": "https://github.com/minaaziz9" }],
+          "icon": { "fa": "fa-brands fa-github" }
         }
       ]
     },
@@ -56,15 +46,11 @@
       "component": "ArticleInfoBlock",
       "config": {},
       "locales": {
-        "en": {
-          "title": "**Who am I?**"
-        }
+        "en": { "title": "**Who am I?**" }
       },
       "items": [
         {
-          "icon": {
-            "img": "images/svg/logo.svg"
-          },
+          "icon": { "img": "images/svg/logo.svg" },
           "locales": {
             "en": {
               "text": "<p>I'm a <b>Cyber Engineering student</b> and <b>Web Security Researcher @ YesWeHack</b>, specializing in <b>Application Security, AI Security, and Offensive Security Automation</b>. My expertise lies in identifying and exploiting vulnerabilities in <b>web applications, cloud environments, and AI models</b>.</p><p>I actively participate in bug bounty programs, research AI security risks, and develop security tools to improve testing efficiency. My approach combines offensive security techniques with a deep understanding of how applications and networks operate.</p>"
@@ -77,19 +63,13 @@
     {
       "id": "latest_certifications",
       "component": "ArticleGrid",
-      "config": {
-        "format": "grid"
-      },
+      "config": { "format": "grid" },
       "locales": {
-        "en": {
-          "title": "Latest **Certifications**"
-        }
+        "en": { "title": "Latest **Certifications**" }
       },
       "items": [
         {
-          "icon": {
-            "fa": "fa-solid fa-certificate"
-          },
+          "icon": { "fa": "fa-solid fa-certificate" },
           "locales": {
             "en": {
               "title": "eWPT - Web Application Penetration Tester",
@@ -98,9 +78,7 @@
           }
         },
         {
-          "icon": {
-            "fa": "fa-solid fa-certificate"
-          },
+          "icon": { "fa": "fa-solid fa-certificate" },
           "locales": {
             "en": {
               "title": "eJPT - Junior Penetration Tester",
@@ -109,9 +87,7 @@
           }
         },
         {
-          "icon": {
-            "fa": "fa-solid fa-certificate"
-          },
+          "icon": { "fa": "fa-solid fa-certificate" },
           "locales": {
             "en": {
               "title": "Security+ - CompTIA Security+",
@@ -120,13 +96,11 @@
           }
         },
         {
-          "icon": {
-            "fa": "fa-solid fa-certificate"
-          },
+          "icon": { "fa": "fa-solid fa-certificate" },
           "locales": {
             "en": {
-              "title": "eCIR - Certified Incident Responder (Coming Soon)",
-              "info": "Focused expertise in incident detection, response, and remediation."
+              "title": "CEH - Certified Ethical Hacker",
+              "info": "Validated skills in ethical hacking, reconnaissance, exploitation, and reporting."
             }
           }
         }
@@ -136,78 +110,50 @@
     {
       "id": "latest_projects",
       "component": "ArticleGrid",
-      "config": {
-        "format": "grid"
-      },
+      "config": { "format": "grid" },
       "locales": {
-        "en": {
-          "title": "Latest **Projects**"
-        }
+        "en": { "title": "Latest **Projects**" }
       },
       "items": [
         {
-          "icon": {
-            "fa": "fa-solid fa-code"
-          },
+          "icon": { "fa": "fa-solid fa-code" },
           "locales": {
             "en": {
               "title": "How I Shoot Web",
               "info": "In-depth personal methodology for hacking web applications, network infrastructure, cloud assets, and leaks."
             }
           },
-          "links": [
-            {
-              "href": "https://github.com/minaaziz9/How-I-shoot-Web"
-            }
-          ]
+          "links": [{ "href": "https://github.com/minaaziz9/How-I-shoot-Web" }]
         },
         {
-          "icon": {
-            "fa": "fa-solid fa-code"
-          },
+          "icon": { "fa": "fa-solid fa-code" },
           "locales": {
             "en": {
               "title": "LLM Security Sandbox",
               "info": "Automating prompt injection attacks, jailbreak testing, and AI security analysis."
             }
           },
-          "links": [
-            {
-              "href": "https://github.com/minaaziz9/LLM-Security-Sandbox"
-            }
-          ]
+          "links": [{ "href": "https://github.com/minaaziz9/LLM-Security-Sandbox" }]
         },
         {
-          "icon": {
-            "fa": "fa-solid fa-code"
-          },
+          "icon": { "fa": "fa-solid fa-code" },
           "locales": {
             "en": {
               "title": "Anubis Web Scanner",
               "info": "Python tool for detecting SQL Injection, XSS, and command injection vulnerabilities."
             }
           },
-          "links": [
-            {
-              "href": "https://github.com/minaaziz9/Anubis-webscanner"
-            }
-          ]
+          "links": [{ "href": "https://github.com/minaaziz9/Anubis-webscanner" }]
         },
         {
-          "icon": {
-            "fa": "fa-solid fa-code"
-          },
+          "icon": { "fa": "fa-solid fa-code" },
           "locales": {
             "en": {
               "title": "MSFCONSOLE-Horus",
               "info": "Automated Metasploit recon & enumeration for offensive security assessments."
             }
           },
-          "links": [
-            {
-              "href": "https://github.com/minaaziz9/MSFCONSOLE-Horus"
-            }
-          ]
+          "links": [{ "href": "https://github.com/minaaziz9/MSFCONSOLE-Horus" }]
         }
       ]
     }
