@@ -1,97 +1,133 @@
 {
-    "locales": {
-        "en": {
-            "title": "Awards",
-            "title_menu": "Achievements",
-            "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
-        },
-        "es": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
-        },
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
-        },
-        "ko": {
-            "title": "경력 성과",
-            "title_menu": "경력 성과",
-            "title_long_prefix": "다음은",
-            "title_long": "**경력 성과**입니다"
-        }
+  "locales": {
+    "en": {
+      "title": "Awards",
+      "title_menu": "Achievements",
+      "title_long_prefix": "Here are my",
+      "title_long": "Career **Achievements**"
     },
-    "articles": [
+    "es": {
+      "title": "Logros",
+      "title_menu": "Logros",
+      "title_long_prefix": "Aquí están mis",
+      "title_long": "**Logros** Profesionales"
+    },
+    "fr": {
+      "title": "Réalis",
+      "title_menu": "Réalisations",
+      "title_long_prefix": "Voici",
+      "title_long": "Mes **Réalisations**"
+    },
+    "ko": {
+      "title": "경력 성과",
+      "title_menu": "경력 성과",
+      "title_long_prefix": "다음은",
+      "title_long": "**경력 성과**입니다"
+    }
+  },
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" },
+        "fr": { "title": "Certifications" },
+        "ko": { "title": "인증서" }
+      },
+      "items": [
         {
-            "id": "certifications",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
-            },
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-shield-halved",
-                        "faColors": {"bg": "#007bff", "fill": "#fff"}
-                    },
-                    "dates": {
-                        "start": "12/01/2024",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "Ine Security",
-                            "text": "eJPT Certification (Junior Penetration Tester)"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": "#f04f24", "fill": "#fff"}
-                    },
-                    "dates": {
-                        "start": "02/01/2025",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "Ine Security",
-                            "text": "eWPT Certification (Web Applications Penetration Tester)"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-flag",
-                        "faColors": {"bg": "#ffcc00", "fill": "#000"}
-                    },
-                    "dates": {
-                        "start": "12/25/2023",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "TryHackMe",
-                            "text": "Advent of Cyber 3 Participant"
-                        }
-                    }
-                }
-            ]
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-shield-halved",
+            "faColors": { "bg": "#007bff", "fill": "#fff" }
+          },
+          "dates": {
+            "start": "12/01/2024",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "INE Security",
+              "text": "eJPT Certification (Junior Penetration Tester)"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-lock",
+            "faColors": { "bg": "#f04f24", "fill": "#fff" }
+          },
+          "dates": {
+            "start": "02/01/2025",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "INE Security",
+              "text": "eWPT Certification (Web Applications Penetration Tester)"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-certificate",
+            "faColors": { "bg": "#f1b501", "fill": "#000" }
+          },
+          "dates": {
+            "start": "09/01/2024",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "CompTIA",
+              "text": "Security+ Certification"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-user-secret",
+            "faColors": { "bg": "#000000", "fill": "#ffffff" }
+          },
+          "dates": {
+            "start": "10/01/2024",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "EC-Council",
+              "text": "Certified Ethical Hacker (CEH)"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-flag",
+            "faColors": { "bg": "#ffcc00", "fill": "#000" }
+          },
+          "dates": {
+            "start": "12/25/2023",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "TryHackMe",
+              "text": "Advent of Cyber 3 Participant"
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
